@@ -18,6 +18,6 @@ int main() {
   std::cout << "Hello " << name << "\n";
   std::cout << "Fibonacci from 1 to 20:" << "\n";
   for (int i = 1; i <= 20; i++) {
-    std::cout << fibonacci(i) << "\n";
+    std::cout << "Fibonacci(" << i << "): " << fibonacci(i) << "\n";
   }
 }
